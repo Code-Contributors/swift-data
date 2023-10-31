@@ -1,0 +1,36 @@
+{
+  "name": "swift-data",
+  "version": "1.1.5",
+  "description": "Swift Data is a fast and efficient Node.js NPM package that revs up database management in your application",
+  "main": "./lib/lib.js",
+  "types": "./lib/lib.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "verleihernix <discord.com/users/1068903407588495472/>",
+  "license": "MIT",
+  "contributors": [
+    "verleihernix",
+    "Code Contributors (CC Studios)"
+  ],
+  "repository": {
+    "url": "https://github.com/Code-Contributors/swift-data"
+  },
+  "files": [
+    "lib",
+    "test",
+    "example-database.db"
+  ],
+  "keywords": [
+    "database",
+    "data"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/uuid": "^9.0.6",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
